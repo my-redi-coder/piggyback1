@@ -294,7 +294,7 @@ summary{cursor:pointer;font-size:16px}
 
   /* 콤보 */
   function showCombo(n){
-    comboEl.textContent = n < 6 ? '짤랑짤랑 x'+n : n < 12 ? '짤랑짤랑짤랑 x'+n+'!' : '동전 폭우 x'+n+'!!';
+    comboEl.textContent = n < 6 ? '막아라 x'+n : n < 12 ? '막아라 막아라 x'+n+'!' : '막으라고!!!!!! x'+n;
     if(comboEl.animate){
       comboEl.animate([{opacity:0, transform:'rotate(-8deg) scale(.6)'},{opacity:1, transform:'rotate(-8deg) scale(1.15)', offset:.2},{opacity:1, transform:'rotate(-8deg) scale(1)', offset:.75},{opacity:0, transform:'rotate(-8deg) scale(1)'}], {duration:1300, fill:'forwards'});
     } else comboEl.style.opacity = 1;
